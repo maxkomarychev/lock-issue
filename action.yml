@@ -6,7 +6,7 @@ inputs:
     description: A token to perform API calls
     required: true
   issue_number:
-    description: Issue id to lock
+    description: Issue number to lock
     required: true
   lock_reason:
     description: "The reason for locking the issue or pull request conversation. Available reasons: off-topic, too heated, resolved, spam"
