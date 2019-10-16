@@ -1,0 +1,22 @@
+name: Lock issue
+description: Lock issue
+
+inputs:
+  token:
+    description: A token to perform API calls
+    required: true
+  issue_number:
+    description: Issue id to lock
+    required: true
+  lock_reason:
+    description: "The reason for locking the issue or pull request conversation. Available reasons: off-topic, too heated, resolved, spam"
+
+    required: true
+
+runs:
+  using: node12
+  main: index.js
+
+branding:
+  icon: lock
+  color: gray-dark
